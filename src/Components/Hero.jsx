@@ -5,7 +5,7 @@ import image from '../assets/profile.jpg'
 
 const Hero = () => {
     return (
-        <div className="grid lg:grid-cols-2 grid-cols-1 gap-6 items-center lg:px-16 py-7">
+        <div className="grid lg:grid-cols-2 grid-cols-1 gap-6 items-center lg:px-16">
             <div className="space-y-5 lg:text-left text-center">
                 <h3 className="text-4xl font-bold">I am A Web Developer</h3>
                 <p className="text-gray-500 font-semibold">Welcome! I’m a dedicated web developer focused on creating visually appealing, highly functional, and user-centered websites. My mission is to deliver seamless digital experiences that leave a lasting impression. Let’s build something remarkable together.</p>

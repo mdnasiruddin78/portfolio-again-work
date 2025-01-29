@@ -1,0 +1,32 @@
+import { NavLink } from "react-router-dom";
+import { FaDownload } from "react-icons/fa";
+import { HiMenuAlt1 } from "react-icons/hi";
+
+
+const Navbar = () => {
+    return (
+        <div className="flex items-center justify-between lg:px-14 px-6 py-2 bg-green-300">
+            <div className="">
+                <h3 className="text-2xl font-bold hidden lg:flex">The Nasir</h3>
+                <div className="dropdown lg:hidden md:hidden flex">
+                    <div tabIndex={0} role="button"><HiMenuAlt1 className='text-3xl text-black' /></div>
+                    <ul tabIndex={0} className="dropdown-content menu text-black bg-white font-bold rounded-box z-[1] w-44 p-2">
+                        <li><NavLink to="/">Home</NavLink></li>
+                        <li><NavLink to="/contact">Contact Me</NavLink></li>
+                        <li><NavLink to="/project">My Projects</NavLink></li>
+                    </ul>
+                </div>
+            </div>
+            <div className="space-x-4 font-bold lg:flex md:flex hidden">
+                <NavLink to="/">Home</NavLink>
+                <NavLink to="/contact">Contact Me</NavLink>
+                <NavLink to="/project">My Projects</NavLink>
+            </div>
+            <div>
+                <button className="btn rounded-md border-2 border-blue-500 text-blue-400 hover:bg-blue-500 hover:text-white hover:border-blue-500"><FaDownload />Download Resume</button>
+            </div>
+        </div>
+    );
+};
+
+export default Navbar;

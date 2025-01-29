@@ -7,7 +7,7 @@ const Navbar = () => {
     return (
         <div className="flex items-center justify-between lg:px-14 px-6 py-2 bg-green-300">
             <div className="">
-                <h3 className="text-2xl font-bold hidden lg:flex">The Nasir</h3>
+                <h3 className="text-2xl font-bold hidden lg:flex md:flex">The Nasir</h3>
                 <div className="dropdown lg:hidden md:hidden flex">
                     <div tabIndex={0} role="button"><HiMenuAlt1 className='text-3xl text-black' /></div>
                     <ul tabIndex={0} className="dropdown-content menu text-black bg-white font-bold rounded-box z-[1] w-44 p-2">

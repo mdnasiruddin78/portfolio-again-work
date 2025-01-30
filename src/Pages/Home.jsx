@@ -1,6 +1,7 @@
 import Aboutme from "../Components/Aboutme";
 import ContactHome from "../Components/ContactHome";
 import Hero from "../Components/Hero";
+import MyProjectHome from "../Components/MyProjectHome";
 import MySkills from "../Components/MySkills";
 
 
@@ -15,6 +16,9 @@ const Home = () => {
             </section>
             <section className="py-7">
                 <MySkills></MySkills>
+            </section>
+            <section className="py-7">
+                <MyProjectHome></MyProjectHome>
             </section>
             <section className="py-7">
                 <ContactHome></ContactHome>

@@ -1,17 +1,9 @@
 import { FaLocationDot } from "react-icons/fa6";
 import { MdMail } from "react-icons/md";
 import { FaPhoneAlt } from "react-icons/fa";
-import * as motion from "motion/react-client"
 
 
 const ContactHome = () => {
-
-    const box = {
-        width: 100,
-        height: 100,
-        // backgroundColor: "#9911ff",
-        borderRadius: 5,
-    }
     
     return (
         <div className="lg:px-16">

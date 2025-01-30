@@ -1,0 +1,54 @@
+[
+    {
+      "id": 1,
+      "image": "https://i.ibb.co.com/2FLK15g/Screenshot-25.png",
+      "name": "WORK-SERVICE",
+      "live_link": "https://thunderous-pothos-0225a2.netlify.app",
+      "github_link": "https://github.com/mdnasiruddin78/assignment-11",
+      "technology_use": ["React", "Firebase", "Html", "Tailwind CSS", "Mongodb", "Javascript"],
+      "key_features": [
+        "User Review System",
+        "Framer Motion Animation",
+        "Search and Filter Category",
+        "Service Update and Delete"
+      ],
+      "challenges": "User add service add by login email.Show Service in a table Formate",
+      "shortcoming_of_the_projects": "The app lacks offline functionality and website color design.",
+      "thinking_and_improving": "Future improvements could include adding offline support with a service worker, more detailed information add in card."
+    },
+    {
+      "id": 2,
+      "image": "https://i.ibb.co.com/HDMk7cx/Screenshot-26.png",
+      "name": "Winter-Adventure",
+      "live_link": "https://silver-blini-7c1bf5.netlify.app",
+      "github_link": "https://github.com/mdnasiruddin78/assignment-9",
+      "technology_use": ["React", "Firebase", "Html", "Tailwind CSS", "Javascript"],
+      "key_features": [
+        "Context Api",
+        "Adventure Details Page",
+        "Firebase Authentication",
+        "Talk With Expert in Google-Meet"
+      ],
+      "challenges": "Create Talk wiht google meet support session",
+      "shortcoming_of_the_projects": "Currently, the app design not good and no more functional work.",
+      "thinking_and_improving": "Future updates could add modern design and Add more Routes."
+    },
+    {
+      "id": 3,
+      "image": "https://i.ibb.co.com/qYQyPCq/Screenshot-27.png",
+      "name": "Gadget Heaven",
+      "live_link": "https://classy-gecko-b206a7.netlify.app/",
+      "github_link": "https://github.com/mdnasiruddin78/assignment-8",
+      "technology_use": ["Html", "CSS", "Tailwind CSS","Javascript", "React"],
+      "key_features": [
+        "Implement Local-starage",
+        "Gadget Show by Category",
+        "Dashboard cart add function",
+        "Gadget purchase System"
+      ],
+      "challenges": "Local Storage functionality is very challenging and show Gadget by category",
+      "shortcoming_of_the_projects": "This web app no Responsive design for tablet and mobile phone",
+      "thinking_and_improving": "Implementing Add more Gadget Cart and Context api."
+    }
+  ]
+  

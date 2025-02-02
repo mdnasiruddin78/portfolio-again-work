@@ -1,9 +1,29 @@
 import { FaLocationDot } from "react-icons/fa6";
 import { MdMail } from "react-icons/md";
 import { FaPhoneAlt } from "react-icons/fa";
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
 
 
 const ContactHome = () => {
+    const form = useRef();
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+
+        emailjs
+            .sendForm('service_3ltom1h', 'template_08jcyxa', form.current, {
+                publicKey: 'SJNgZhAUGmXeGlFXW',
+            })
+            .then(
+                () => {
+                    console.log('SUCCESS!');
+                },
+                (error) => {
+                    console.log('FAILED...', error.text);
+                },
+            );
+    };
 
     return (
         <div id="contractHome" className="lg:px-16">
@@ -13,10 +33,21 @@ const ContactHome = () => {
                     <h3 className="text-xl font-bold">Get in Touch</h3>
                     <div className="divider w-52"></div>
                     <div className="space-y-5">
-                        <input type="text" placeholder="Write your name" className="input input-bordered w-full max-w-xs border-green-600" />
-                        <input type="text" placeholder="Type your Email" className="input input-bordered w-full max-w-xs border-green-600" />
-                        <textarea className="textarea textarea-bordered w-80 border-green-600" placeholder="Write your message..."></textarea>
-                        <button className="btn bg-yellow-400 text-white text-xl border-2 border-white">Send Message</button>
+                        <form ref={form} onSubmit={sendEmail}>
+                            <label>Name:</label>
+                            <br />
+                            <input type="text" placeholder="Write your name" className="input input-bordered w-full max-w-xs border-green-600" name="user_name" required />
+                            <br />
+                            <label>Email:</label>
+                            <br />
+                            <input type="email" placeholder="Type your Email" className="input input-bordered w-full max-w-xs border-green-600" name="user_email" required />
+                            <br />
+                            <label>Message:</label>
+                            <br />
+                            <textarea name="message" className="textarea textarea-bordered w-80 border-green-600" placeholder="Write your message..." required />
+                            <br />
+                            <button className="btn bg-yellow-400 text-white text-xl border-2 border-white">Send Message</button>
+                        </form>
                     </div>
                 </div>
                 <div className="bg-blue-200 rounded-xl shadow-md p-9 hover:shadow-2xl hover:scale-105 transition-transform duration-300">

@@ -17,7 +17,7 @@ const MySkills = () => {
                 <h3 className="text-4xl font-bold text-center">My Skills</h3>
                 <p className="text-center text-gray-500">Skills and what i am learning</p>
             </div>
-            <Marquee autoFill={true} pauseOnHover={true} speed={300} className='bg-gray-300 p-5'>
+            <Marquee autoFill={true} pauseOnHover={true} speed={100} className='bg-gray-300 p-5'>
                 <p className='text-xl font-bold mr-5'>Frontend |</p>
                 <div className='items-center w-60 h-40 rounded-md bg-orange-100 mr-5'>
                     <div className='flex justify-center items-center'>

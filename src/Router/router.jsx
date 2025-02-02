@@ -4,6 +4,7 @@ import Error from "../Components/Error";
 import Home from "../Pages/Home";
 import Contract from "../Components/Contract";
 import Myproject from "../Components/Myproject";
+import DetailsPage from "../Pages/DetailsPage";
 
 
 const router = createBrowserRouter([
@@ -23,6 +24,11 @@ const router = createBrowserRouter([
             {
                 path: "/project",
                 element: <Myproject></Myproject>,
+            },
+            {
+                path: "/projectDetail/:id",
+                element: <DetailsPage></DetailsPage>,
+                loader: () => fetch('/projects.json')
             }
         ]
     },

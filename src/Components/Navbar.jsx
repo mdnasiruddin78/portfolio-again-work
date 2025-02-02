@@ -5,7 +5,7 @@ import { HiMenuAlt1 } from "react-icons/hi";
 
 const Navbar = () => {
     return (
-        <div className="flex items-center justify-between lg:px-14 px-6 py-2 bg-green-300">
+        <div className="flex items-center justify-between lg:px-14 px-6 py-2 backdrop-blur">
             <div className="">
                 <h3 className="text-2xl font-bold hidden lg:flex md:flex">The Nasir</h3>
                 <div className="dropdown lg:hidden md:hidden flex">

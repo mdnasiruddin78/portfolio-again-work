@@ -4,9 +4,9 @@ import { FaPhoneAlt } from "react-icons/fa";
 
 
 const ContactHome = () => {
-    
+
     return (
-        <div className="lg:px-16">
+        <div id="contractHome" className="lg:px-16">
             <h3 className="text-4xl font-bold text-center mb-5">Contact Me</h3>
             <div className="grid lg:grid-cols-2 grid-cols-1 gap-6">
                 <div className="bg-gray-300 rounded-xl shadow-md p-9 hover:shadow-2xl hover:scale-105 transition-transform duration-300">

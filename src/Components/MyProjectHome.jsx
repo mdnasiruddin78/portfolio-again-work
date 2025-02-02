@@ -13,7 +13,7 @@ const MyProjectHome = () => {
     }, [])
 
     return (
-        <div className="lg:px-16">
+        <div id="myProject" className="lg:px-16">
             <div className="mb-5 space-y-2 text-center">
                 <h3 className="text-2xl font-bold">My Projects</h3>
                 <p className="text-gray-500">Few projects, these has unique design</p>

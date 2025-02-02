@@ -19,8 +19,8 @@ const Navbar = () => {
             </div>
             <div className="space-x-4 font-bold lg:flex md:flex hidden">
                 <NavLink to="/">Home</NavLink>
-                <NavLink to="/contact">Contact Me</NavLink>
-                <NavLink to="/project">My Projects</NavLink>
+                <a href="#contractHome"><button>Contact Me</button></a>
+                <a href="#myProject"><button>My Projects</button></a>
             </div>
             <div>
                 <a href="https://docs.google.com/document/d/1lXXvJ2JbTuhH2XlOS7ZkvEQM_k2R-CyrkU0tvP1k1Zs/edit?usp=sharing" target="_blank"> <button className="btn rounded-md border-2 border-blue-500 text-blue-400 hover:bg-blue-500 hover:text-white hover:border-blue-500"><FaDownload />Download Resume</button></a>

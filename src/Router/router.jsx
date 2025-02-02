@@ -2,9 +2,9 @@ import { createBrowserRouter } from "react-router-dom";
 import Mainlayout from "../Mainlayout/Mainlayout";
 import Error from "../Components/Error";
 import Home from "../Pages/Home";
-import Contract from "../Components/Contract";
 import Myproject from "../Components/Myproject";
 import DetailsPage from "../Pages/DetailsPage";
+import ContactHome from "../Components/ContactHome";
 
 
 const router = createBrowserRouter([
@@ -19,7 +19,7 @@ const router = createBrowserRouter([
             },
             {
                 path: "/contact",
-                element: <Contract></Contract>,
+                element: <ContactHome></ContactHome>,
             },
             {
                 path: "/project",

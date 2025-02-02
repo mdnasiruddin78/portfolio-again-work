@@ -12,8 +12,8 @@ const Navbar = () => {
                     <div tabIndex={0} role="button"><HiMenuAlt1 className='text-3xl text-black' /></div>
                     <ul tabIndex={0} className="dropdown-content menu text-black bg-white font-bold rounded-box z-[1] w-44 p-2">
                         <li><NavLink to="/">Home</NavLink></li>
-                        <li><NavLink to="/contact">Contact Me</NavLink></li>
-                        <li><NavLink to="/project">My Projects</NavLink></li>
+                        <li><a href="#contractHome"><button>Contact Me</button></a></li>
+                        <li><a href="#myProject"><button>My Projects</button></a></li>
                     </ul>
                 </div>
             </div>

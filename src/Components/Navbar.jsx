@@ -23,7 +23,7 @@ const Navbar = () => {
                 <a href="#myProject"><button>My Projects</button></a>
             </div>
             <div>
-                <a href="https://docs.google.com/document/d/1lXXvJ2JbTuhH2XlOS7ZkvEQM_k2R-CyrkU0tvP1k1Zs/edit?usp=sharing" target="_blank"> <button className="btn rounded-md stroke-2 text-white border-[#3F8E00] bg-[#3F8E00] stroke-[#62BA1B]"><FaDownload />Download Resume</button></a>
+                <a href="https://docs.google.com/document/d/1lXXvJ2JbTuhH2XlOS7ZkvEQM_k2R-CyrkU0tvP1k1Zs/edit?usp=sharing" target="_blank"> <button className="btn rounded-md stroke-2 text-white border-none bg-[#3F8E00] stroke-[#62BA1B] hover:bg-[#3F8E00] hover:shadow-lg hover:shadow-[#62BA1B]"><FaDownload />Download Resume</button></a>
             </div>
         </div>
     );

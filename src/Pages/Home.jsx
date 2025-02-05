@@ -8,19 +8,19 @@ import MySkills from "../Components/MySkills";
 const Home = () => {
     return (
         <div className="w-11/12 mx-auto">
-            <header className="py-7">
+            <header>
                 <Hero></Hero>
             </header>
-            <section className="py-7">
+            <section>
                 <Aboutme></Aboutme>
             </section>
-            <section className="py-7">
+            <section>
                 <MySkills></MySkills>
             </section>
-            <section className="py-7">
+            <section>
                 <MyProjectHome></MyProjectHome>
             </section>
-            <section className="py-7">
+            <section>
                 <ContactHome></ContactHome>
             </section>
         </div>

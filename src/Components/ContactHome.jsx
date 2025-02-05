@@ -26,8 +26,8 @@ const ContactHome = () => {
     };
 
     return (
-        <div id="contractHome" className="lg:px-16">
-            <h3 className="text-4xl font-bold text-center mb-5">Contact Me</h3>
+        <div id="contractHome" className="lg:px-16 py-10 bg-black">
+            <h3 className="text-4xl font-bold text-center mb-5 text-white">Contact Me</h3>
             <div className="grid lg:grid-cols-2 grid-cols-1 gap-6">
                 <div className="bg-gray-300 rounded-xl shadow-md p-9 hover:shadow-2xl hover:scale-105 transition-transform duration-300">
                     <h3 className="text-xl font-bold">Get in Touch</h3>
@@ -46,7 +46,7 @@ const ContactHome = () => {
                             <br />
                             <textarea name="message" className="textarea textarea-bordered w-80 border-green-600" placeholder="Write your message..." required />
                             <br />
-                            <button className="btn bg-yellow-400 text-white text-xl border-2 border-white">Send Message</button>
+                            <button className="btn border-[#3F8E00] bg-[#3F8E00] stroke-[#62BA1B] text-white text-xl">Send Message</button>
                         </form>
                     </div>
                 </div>

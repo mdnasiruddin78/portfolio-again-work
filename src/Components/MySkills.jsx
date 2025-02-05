@@ -12,13 +12,13 @@ import Marquee from 'react-fast-marquee';
 
 const MySkills = () => {
     return (
-        <div className='lg:px-16'>
+        <div className='lg:px-16 bg-black py-20'>
             <div className="space-y-2 mb-5">
-                <h3 className="text-4xl font-bold text-center">My Skills</h3>
-                <p className="text-center text-gray-500">Skills and what i am learning</p>
+                <h3 className="text-4xl font-bold text-center text-white">My Skills</h3>
+                <p className="text-center text-[#9C9C9C]">Skills and what i am learning</p>
             </div>
-            <Marquee autoFill={true} pauseOnHover={true} speed={100} className='bg-gray-300 p-5'>
-                <p className='text-xl font-bold mr-5'>Frontend |</p>
+            <Marquee autoFill={true} pauseOnHover={true} speed={100}>
+                <p className='text-xl font-bold mr-5 text-white'>Frontend |</p>
                 <div className='items-center w-60 h-40 rounded-md bg-orange-100 mr-5'>
                     <div className='flex justify-center items-center'>
                         <img className='w-16 mt-10' src={html} alt="" />
@@ -55,7 +55,7 @@ const MySkills = () => {
                     </div>
                     <p className='font-bold text-center'>Firebase</p>
                 </div>
-                <p className='text-xl font-bold mr-5'>Backend |</p>
+                <p className='text-xl font-bold mr-5 text-white'>Backend |</p>
                 <div className='items-center w-60 h-40 rounded-md bg-green-200 mr-5'>
                     <div className='flex justify-center items-center'>
                         <img className='w-16 rounded-md mt-12' src={node} alt="" />
@@ -70,7 +70,7 @@ const MySkills = () => {
                 </div>
                 <div className='items-center w-60 h-40 rounded-md bg-gray-500 mr-5'>
                     <div className='flex justify-center items-center'>
-                        <img className='w-16 rounded-md mt-10' src={express} alt="" />
+                        <img className='w-24 rounded-md mt-10' src={express} alt="" />
                     </div>
                     <p className='font-bold text-center'>Express.Js</p>
                 </div>

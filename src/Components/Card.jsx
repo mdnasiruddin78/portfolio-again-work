@@ -13,9 +13,9 @@ const Card = ({ project }) => {
             </div>
             <div className="p-4 space-y-4">
                 <h2 className="card-title font-semibold text-xl">Project Name: {name}</h2>
-                <p>{challenges}...</p>
+                <p className="text-[#9C9C9C]">{challenges}...</p>
                 <div className="card-actions">
-                    <Link to={`/projectDetail/${id}`} className='btn rounded-md border-2 border-blue-500 text-blue-400 hover:bg-blue-500 hover:text-white hover:border-blue-500'>View Details <CgDetailsMore  className="font-bold"/></Link>
+                    <Link to={`/projectDetail/${id}`} className='btn rounded-md text-white border-[#3F8E00] bg-[#3F8E00] stroke-[#62BA1B]'>View Details <CgDetailsMore  className="font-bold"/></Link>
                 </div>
             </div>
         </div>

@@ -9,7 +9,7 @@ const Mainlayout = () => {
             <nav className="sticky top-0 z-50">
                 <Navbar></Navbar>
             </nav>
-            <main className="bg-base-300">
+            <main>
                 <Outlet></Outlet>
             </main>
             <footer>

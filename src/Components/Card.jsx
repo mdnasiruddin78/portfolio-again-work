@@ -15,7 +15,7 @@ const Card = ({ project }) => {
                 <h2 className="card-title font-semibold text-xl">Project Name: {name}</h2>
                 <p className="text-[#9C9C9C]">{challenges}...</p>
                 <div className="card-actions">
-                    <Link to={`/projectDetail/${id}`} className='btn rounded-md text-white border-[#3F8E00] bg-[#3F8E00] stroke-[#62BA1B]'>View Details <CgDetailsMore  className="font-bold"/></Link>
+                    <Link to={`/projectDetail/${id}`} className='btn rounded-md text-white border-[#3F8E00] bg-[#3F8E00] drop-shadow-xl'>View Details <CgDetailsMore  className="font-bold"/></Link>
                 </div>
             </div>
         </div>

@@ -46,7 +46,7 @@ const ContactHome = () => {
                             <br />
                             <textarea name="message" className="textarea textarea-bordered w-80 border-green-600" placeholder="Write your message..." required />
                             <br />
-                            <button className="btn border-[#3F8E00] bg-[#3F8E00] stroke-[#62BA1B] text-white text-xl">Send Message</button>
+                            <button className="btn border-[#3F8E00] bg-[#3F8E00] drop-shadow-xl text-white text-xl">Send Message</button>
                         </form>
                     </div>
                 </div>

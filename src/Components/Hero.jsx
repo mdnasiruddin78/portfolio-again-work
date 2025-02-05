@@ -1,7 +1,8 @@
 import { FaSquareFacebook } from "react-icons/fa6";
 import { FaDownload, FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
-import image from '../assets/profile.jpg'
+import image from '../assets/profile.jpg';
+
 
 const Hero = () => {
     return (
@@ -15,7 +16,7 @@ const Hero = () => {
                     <p><FaLinkedin className="text-3xl text-blue-500" /></p>
                 </div>
                 <div>
-                    <a href="https://docs.google.com/document/d/1lXXvJ2JbTuhH2XlOS7ZkvEQM_k2R-CyrkU0tvP1k1Zs/edit?usp=sharing" target="_blank"> <button className="btn rounded-md stroke-2 text-white border-[#3F8E00] bg-[#3F8E00] stroke-[#62BA1B] px-10"><FaDownload />Download Resume</button></a>
+                    <a href="https://docs.google.com/document/d/1lXXvJ2JbTuhH2XlOS7ZkvEQM_k2R-CyrkU0tvP1k1Zs/edit?usp=sharing" target="_blank"> <button className="btn rounded-md text-white border-none bg-[#3F8E00] px-10 shadow-lg shadow-[#62BA1B]"><FaDownload />Download Resume</button></a>
                 </div>
             </div>
             <div className="flex lg:justify-end justify-center">

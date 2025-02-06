@@ -12,7 +12,7 @@ import Marquee from 'react-fast-marquee';
 
 const MySkills = () => {
     return (
-        <div className='lg:px-16 bg-black py-20'>
+        <div id='mySkills' className='lg:px-16 bg-black py-20'>
             <div className="space-y-2 mb-5">
                 <h3 className="text-4xl font-bold text-center text-white">My Skills</h3>
                 <p className="text-center text-[#9C9C9C]">Skills and what i am learning</p>

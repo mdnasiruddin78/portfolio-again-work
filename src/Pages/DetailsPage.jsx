@@ -8,7 +8,7 @@ const DetailsPage = () => {
     const data = useLoaderData()
     const { id } = useParams()
     const details = data.find(detail => detail.id == id)
-    const { image, name, live_link, github_link, technology_use, key_features, challenges, shortcoming_of_the_projects, thinking_and_improving } = details
+    const { image, name, description, live_link, github_link, technology_use, key_features, challenges, shortcoming_of_the_projects, thinking_and_improving } = details
 
     return (
         <div className="w-11/12 mx-auto lg:px-16 bg-base-300">
@@ -21,6 +21,7 @@ const DetailsPage = () => {
                 </div>
                 <div className="p-5 space-y-4">
                     <h2 className="card-title font-bold text-2xl">Project Name: {name}</h2>
+                    <p><span className="font-bold">Description:</span> <ul className="text-gray-500 ml-5"><li className="list-disc">{description}</li></ul></p>
                     <p><span className="font-bold">Technology_use:</span>
                         {
                             technology_use.map(technology => <ul className="text-gray-500 ml-5"><li key={technology.id} className="list-disc">{technology}</li></ul>)

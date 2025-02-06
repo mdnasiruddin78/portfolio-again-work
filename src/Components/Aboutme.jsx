@@ -2,7 +2,7 @@ import image from '../assets/2.png';
 
 const Aboutme = () => {
     return (
-        <div className="grid lg:grid-cols-2 grid-cols-1 items-center lg:px-16 gap-5 lg:py-10 py-6 bg-base-300">
+        <div id='aboutMe' className="grid lg:grid-cols-2 grid-cols-1 items-center lg:px-16 gap-5 lg:py-10 py-6 bg-base-300">
             <div>
                 <img src={image} alt="" />
             </div>

@@ -4,8 +4,9 @@
       "image": "https://i.ibb.co.com/2FLK15g/Screenshot-25.png",
       "name": "WORK-SERVICE",
       "live_link": "https://thunderous-pothos-0225a2.netlify.app",
-      "github_link": "https://github.com/mdnasiruddin78/assignment-11",
+      "github_link": "https://github.com/mdnasiruddin78/A11client",
       "technology_use": ["React", "Firebase", "Html", "Tailwind CSS", "Mongodb", "Javascript"],
+      "description": "This projects Name WORK-SERVICE. online digital service.our work has very professional work.we are try to our best work for out client.User can add a review a single service.Home page show countup the total user,review,service.",
       "key_features": [
         "User Review System",
         "Framer Motion Animation",
@@ -23,6 +24,7 @@
       "live_link": "https://silver-blini-7c1bf5.netlify.app",
       "github_link": "https://github.com/mdnasiruddin78/assignment-9",
       "technology_use": ["React", "Firebase", "Html", "Tailwind CSS", "Javascript"],
+      "description": "This is a winter land theme website.A company service provide eco winter adventure.the user user to theis website and see all the winter theme game avalavle in the company provide people.user can talk with the expert system bild i am",
       "key_features": [
         "Context Api",
         "Adventure Details Page",
@@ -40,6 +42,7 @@
       "live_link": "https://classy-gecko-b206a7.netlify.app/",
       "github_link": "https://github.com/mdnasiruddin78/assignment-8",
       "technology_use": ["Html", "CSS", "Tailwind CSS","Javascript", "React"],
+      "description": "This is Online Gadget Web Page. User Can Select his favorite Gadget and buy the selected Gadget.I am using Local-Storage user selected gadget permanent select in dashboard section. User can see a gagget details all the information.",
       "key_features": [
         "Implement Local-starage",
         "Gadget Show by Category",

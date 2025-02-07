@@ -3,6 +3,7 @@ import { MdMail } from "react-icons/md";
 import { FaPhoneAlt } from "react-icons/fa";
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
+import toast from "react-hot-toast";
 
 
 const ContactHome = () => {
@@ -18,6 +19,7 @@ const ContactHome = () => {
             .then(
                 () => {
                     console.log('SUCCESS!');
+                    toast.success('Message Send Successfull')
                 },
                 (error) => {
                     console.log('FAILED...', error.text);

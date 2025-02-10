@@ -1,7 +1,7 @@
 import { FaSquareFacebook } from "react-icons/fa6";
 import { FaDownload, FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
-import image from '../assets/image-profile.png';
+import image from '../assets/profile.jpg';
 
 
 const Hero = () => {

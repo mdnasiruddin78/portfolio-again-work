@@ -8,6 +8,16 @@
 @tailwind utilities;
 
 
+body{
+    background-color: #121212;
+}
+
+.active{
+    color: #FD6F00;
+    font-weight: 500;
+}
+
+
 html{
     overflow-y: scroll;
 }

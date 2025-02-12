@@ -1,80 +1,77 @@
-import html from '../assets/html-5-CKyDEyeN.png';
-import css from '../assets/css-3-bLrZJUBe.png';
-import tailwind from '../assets/tailwind-css-ccILFQbJ.png';
-import javascript from '../assets/js-Bu6ZFjaT.png';
-import react from '../assets/React.webp';
-import firebase from '../assets/firebase-DgpsA1pK.png';
-import node from '../assets/nodejs.png';
-import mongodb from '../assets/mongodb.png';
-import express from '../assets/express.png';
-import Marquee from 'react-fast-marquee';
+import { ImHtmlFive2 } from "react-icons/im";
+import { SiCss3 } from "react-icons/si";
+import { RiTailwindCssFill } from "react-icons/ri";
+import { IoLogoFirebase } from "react-icons/io5";
+import { IoLogoJavascript } from "react-icons/io5";
+import { FaReact } from "react-icons/fa6";
+import { FaNodeJs } from "react-icons/fa";
+import { SiMongodb } from "react-icons/si";
+import { SiExpress } from "react-icons/si";
 
 
 const MySkills = () => {
     return (
-        <div id='mySkills' className='lg:px-16 bg-black py-20'>
+        <div id='mySkills' className='py-20'>
             <div className="space-y-2 mb-5">
                 <h3 className="text-4xl font-bold text-center text-white">My Skills</h3>
-                <p className="text-center text-[#9C9C9C]">Skills and what i am learning</p>
+                <p className="text-center text-[#959595]">Skills and what i am learning</p>
             </div>
-            <Marquee autoFill={true} pauseOnHover={true} speed={100}>
-                <p className='text-xl font-bold mr-5 text-white'>Frontend |</p>
-                <div className='items-center w-60 h-40 rounded-md bg-orange-100 mr-5'>
-                    <div className='flex justify-center items-center'>
-                        <img className='w-16 mt-10' src={html} alt="" />
+            <div className="grid lg:grid-cols-3 gap-8 md:grid-cols-2 grid-cols-1">
+                <div className="bg-[#1b1b1b] py-16 rounded-xl">
+                    <div className="flex justify-center">
+                        <ImHtmlFive2 className="text-[#FD6F00] text-7xl text-center" />
                     </div>
-                    <p className='font-bold text-center'>HTML5</p>
+                    <p className="text-[#959595] text-xl font-bold text-center">HTML</p>
                 </div>
-                <div className='items-center w-60 h-40 rounded-md bg-blue-100 mr-5'>
-                    <div className='flex justify-center items-center'>
-                        <img className='w-16 mt-10' src={css} alt="" />
+                <div className="bg-[#1b1b1b] py-16 rounded-xl">
+                    <div className="flex justify-center">
+                        <SiCss3 className="text-[#FD6F00] text-7xl text-center" />
                     </div>
-                    <p className='font-bold text-center'>CSS3</p>
+                    <p className="text-[#959595] text-xl font-bold text-center">CSS</p>
                 </div>
-                <div className='items-center w-60 h-40 rounded-md bg-blue-100 mr-5'>
-                    <div className='flex justify-center items-center'>
-                        <img className='w-16 h-9 rounded-md mt-12' src={tailwind} alt="" />
+                <div className="bg-[#1b1b1b] py-16 rounded-xl">
+                    <div className="flex justify-center">
+                        <RiTailwindCssFill className="text-[#FD6F00] text-7xl text-center" />
                     </div>
-                    <p className='font-bold text-center'>Tailwind Css</p>
+                    <p className="text-[#959595] text-xl font-bold text-center">TAILWIND CSS</p>
                 </div>
-                <div className='items-center w-60 h-40 rounded-md bg-yellow-100 mr-5'>
-                    <div className='flex justify-center items-center'>
-                        <img className='w-16 rounded-md mt-10' src={javascript} alt="" />
+                <div className="bg-[#1b1b1b] py-16 rounded-xl">
+                    <div className="flex justify-center">
+                        <IoLogoFirebase className="text-[#FD6F00] text-7xl text-center" />
                     </div>
-                    <p className='font-bold text-center'>Javascript</p>
+                    <p className="text-[#959595] text-xl font-bold text-center">FIREBASE</p>
                 </div>
-                <div className='items-center w-60 h-40 rounded-md bg-blue-200 mr-5'>
-                    <div className='flex justify-center items-center'>
-                        <img className='w-16 rounded-md mt-10' src={react} alt="" />
+                <div className="bg-[#1b1b1b] py-16 rounded-xl">
+                    <div className="flex justify-center">
+                        <IoLogoJavascript className="text-[#FD6F00] text-7xl text-center" />
                     </div>
-                    <p className='font-bold text-center'>React</p>
+                    <p className="text-[#959595] text-xl font-bold text-center">JAVASCRIPT</p>
                 </div>
-                <div className='items-center w-60 h-40 rounded-md bg-orange-200 mr-5'>
-                    <div className='flex justify-center items-center'>
-                        <img className='w-16 rounded-md mt-10' src={firebase} alt="" />
+                <div className="bg-[#1b1b1b] py-16 rounded-xl">
+                    <div className="flex justify-center">
+                        <FaReact className="text-[#FD6F00] text-7xl text-center" />
                     </div>
-                    <p className='font-bold text-center'>Firebase</p>
+                    <p className="text-[#959595] text-xl font-bold text-center">REACT.JS</p>
                 </div>
-                <p className='text-xl font-bold mr-5 text-white'>Backend |</p>
-                <div className='items-center w-60 h-40 rounded-md bg-green-200 mr-5'>
-                    <div className='flex justify-center items-center'>
-                        <img className='w-16 rounded-md mt-12' src={node} alt="" />
+                <div className="bg-[#1b1b1b] py-16 rounded-xl">
+                    <div className="flex justify-center">
+                        <FaNodeJs className="text-[#FD6F00] text-7xl text-center" />
                     </div>
-                    <p className='font-bold text-center'>Node.Js</p>
+                    <p className="text-[#959595] text-xl font-bold text-center">NODE.JS</p>
                 </div>
-                <div className='items-center w-60 h-40 rounded-md bg-green-300 mr-5'>
-                    <div className='flex justify-center items-center'>
-                        <img className='w-20 rounded-md mt-6' src={mongodb} alt="" />
+                <div className="bg-[#1b1b1b] py-16 rounded-xl">
+                    <div className="flex justify-center">
+                        <SiMongodb className="text-[#FD6F00] text-7xl text-center" />
                     </div>
-                    <p className='font-bold text-center'>MongoDb</p>
+                    <p className="text-[#959595] text-xl font-bold text-center">MONGODB</p>
                 </div>
-                <div className='items-center w-60 h-40 rounded-md bg-gray-500 mr-5'>
-                    <div className='flex justify-center items-center'>
-                        <img className='w-24 rounded-md mt-10' src={express} alt="" />
+                <div className="bg-[#1b1b1b] py-16 rounded-xl">
+                    <div className="flex justify-center">
+                        <SiExpress className="text-[#FD6F00] text-7xl text-center" />
                     </div>
-                    <p className='font-bold text-center'>Express.Js</p>
+                    <p className="text-[#959595] text-xl font-bold text-center">EXPRESS.JS</p>
                 </div>
-            </Marquee>
+            </div>
         </div>
     );
 };

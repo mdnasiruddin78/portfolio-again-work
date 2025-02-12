@@ -6,7 +6,7 @@ import '../Components/index/index.css';
 
 const Navbar = () => {
     return (
-        <div className="flex items-center justify-between lg:px-14 px-6 py-2 backdrop-blur">
+        <div className="flex items-center justify-between lg:px-24 px-6 py-2 backdrop-blur">
             <div className="">
                 <h3 className="text-xl font-bold hidden lg:flex md:flex gradient-text">THE NASIR</h3>
                 <div className="dropdown lg:hidden md:hidden flex">
@@ -20,7 +20,7 @@ const Navbar = () => {
                     </ul>
                 </div>
             </div>
-            <div className="space-x-5 lg:flex md:flex hidden text-[#9C9C9C]">
+            <div className="lg:space-x-5 md:space-x-3 lg:flex md:flex hidden text-[#9C9C9C]">
                 <NavLink to="/">Home</NavLink>
                 <NavLink to="/aboutme">About Me</NavLink>
                 <NavLink to="/myskill">My Skills</NavLink>

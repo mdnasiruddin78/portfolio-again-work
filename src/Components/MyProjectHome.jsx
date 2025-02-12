@@ -13,10 +13,10 @@ const MyProjectHome = () => {
     }, [])
 
     return (
-        <div id="myProject" className="lg:px-16 lg:py-10 py-6 bg-base-300">
+        <div id="myProject" className="lg:py-10 py-6">
             <div className="mb-5 space-y-2 text-center">
-                <h3 className="text-4xl font-bold">My Projects</h3>
-                <p className="text-[#9C9C9C]">Few projects, these has unique design</p>
+                <h3 className="text-4xl font-bold text-white">My Projects</h3>
+                <p className="text-[#959595]">Few projects, these has unique design</p>
             </div>
             <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-7">
                 {

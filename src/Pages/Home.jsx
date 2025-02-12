@@ -7,7 +7,7 @@ import MySkills from "../Components/MySkills";
 
 const Home = () => {
     return (
-        <div className="max-w-6xl mx-auto">
+        <div className="max-w-6xl mx-auto p-4">
             <header>
                 <Hero></Hero>
             </header>

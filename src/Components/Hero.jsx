@@ -9,7 +9,7 @@ import vector from '../assets/Vector.png';
 const Hero = () => {
     return (
         <div className="grid lg:grid-cols-2 grid-cols-1 gap-6 items-center lg:py-20 md:py-10 py-6">
-            <img className="absolute w-[450px] top-40" src={vector} alt="" />
+            <img className="absolute lg:w-[450px] w-[360px] top-40" src={vector} alt="" />
             <div className="space-y-4 lg:text-left text-center relative">
                 <h3 className="text-xl text-[#707070]">Hi I am</h3>
                 <h3 className="text-2xl font-bold text-[#959595]">MD.NASIR UDDIN ANIK</h3>

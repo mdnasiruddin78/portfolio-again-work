@@ -18,7 +18,7 @@ const MyProjectHome = () => {
                 <h3 className="text-4xl font-bold text-white">My Projects</h3>
                 <p className="text-[#959595]">Few projects, these has unique design</p>
             </div>
-            <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-7">
+            <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-5">
                 {
                     projects.map(project => <Card key={project.id} project={project}></Card>)
                 }

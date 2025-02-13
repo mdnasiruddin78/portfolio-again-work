@@ -6,7 +6,7 @@ import '../Components/index/index.css';
 
 const Navbar = () => {
     return (
-        <div className="flex items-center justify-between lg:px-24 px-6 py-2 backdrop-blur">
+        <div className="flex items-center justify-between lg:px-28 md:px-5 px-5 py-2 backdrop-blur">
             <div className="">
                 <h3 className="text-xl font-bold hidden lg:flex md:flex gradient-text">THE NASIR</h3>
                 <div className="dropdown lg:hidden md:hidden flex">

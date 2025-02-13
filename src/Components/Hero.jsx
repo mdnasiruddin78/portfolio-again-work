@@ -13,7 +13,7 @@ const Hero = () => {
             <div className="space-y-4 lg:text-left text-center relative">
                 <h3 className="text-xl text-[#707070]">Hi I am</h3>
                 <h3 className="text-2xl font-bold text-[#959595]">MD.NASIR UDDIN ANIK</h3>
-                <h3 className="text-4xl font-bold text-white gradient-front">A Frontend Developer</h3>
+                <h3 className="font-bold text-4xl text-white gradient-front">A Frontend Developer</h3>
                 <p className="text-[#9C9C9C] font-semibold">I’m focused on creating visually appealing, highly functional, and user-centered websites. My mission is to deliver seamless digital experiences that leave a lasting impression. Let’s build something remarkable together.</p>
                 <div className="flex space-x-4 lg:justify-start justify-center">
                     <p><a href="https://github.com/mdnasiruddin78" target="_blank"><FaGithub className="text-2xl text-[#BABABA] border border-[#FFFFFF] rounded-full h-12 w-12 p-2" /></a></p>

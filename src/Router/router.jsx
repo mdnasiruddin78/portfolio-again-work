@@ -3,7 +3,6 @@ import Mainlayout from "../Mainlayout/Mainlayout";
 import Error from "../Components/Error";
 import Home from "../Pages/Home";
 import DetailsPage from "../Pages/DetailsPage";
-import ContactHome from "../Components/ContactHome";
 
 
 const router = createBrowserRouter([
@@ -17,14 +16,10 @@ const router = createBrowserRouter([
                 element: <Home></Home>,
             },
             {
-                path: "/contact",
-                element: <ContactHome></ContactHome>,
-            },
-            {
                 path: "/projectDetail/:id",
                 element: <DetailsPage></DetailsPage>,
                 loader: () => fetch('/projects.json')
-            }
+            },
         ]
     },
 ]);

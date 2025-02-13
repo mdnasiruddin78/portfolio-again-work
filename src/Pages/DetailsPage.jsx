@@ -43,7 +43,9 @@ const DetailsPage = () => {
                     </div>
                 </div>
             </div>
-            <Link to={'/'} className='btn mt-5 mb-5 rounded-md border-none bg-[#FA6E00] text-white'>Go To Home</Link>
+            <div className="py-7">
+                <Link to={'/'} className='rounded-md border-2 border-[#959595] text-[#959595] p-3'>Go To Home</Link>
+            </div>
         </div>
     );
 };

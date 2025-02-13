@@ -5,7 +5,7 @@ import { CgDetailsMore } from "react-icons/cg";
 const Card = ({ project }) => {
     const { id, image, name ,challenges} = project
     return (
-        <div className="card group bg-[#252525] rounded-md shadow-md hover:shadow-2xl hover:scale-105 transition-transform duration-300">
+        <div className="card bg-[#252525] rounded-md hover:shadow-2xl hover:scale-105 transition-transform duration-300">
             <div className="">
                 <img
                     src={image}

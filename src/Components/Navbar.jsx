@@ -28,7 +28,7 @@ const Navbar = () => {
                 <NavLink to="/contact">Contact Me</NavLink>
             </div>
             <div>
-                <a href="https://docs.google.com/document/d/1lXXvJ2JbTuhH2XlOS7ZkvEQM_k2R-CyrkU0tvP1k1Zs/edit?usp=sharing" target="_blank"> <button className="btn rounded-md  text-white border-none bg-gradient-to-r from-[#FD6F00] to-[#E46400]"><FaDownload />Download Resume</button></a>
+                <a href="https://drive.google.com/file/d/1sKLGSzlYcO0KdZivhkNkVgVqzi7Zav0i/view?usp=sharing" target="_blank"> <button className="btn rounded-md  text-white border-none bg-gradient-to-r from-[#FD6F00] to-[#E46400]"><FaDownload />Download Resume</button></a>
             </div>
         </div>
     );

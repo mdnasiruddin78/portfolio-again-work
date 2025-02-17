@@ -1,7 +1,7 @@
 import { FaSquareFacebook } from "react-icons/fa6";
 import { FaDownload, FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
-import image from '../assets/ai image-modified.png';
+import image from '../assets/profile.jpg';
 import '../Components/index/index.css';
 import vector from '../assets/Vector.png';
 
